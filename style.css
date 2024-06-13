@@ -1,10 +1,16 @@
-* {
-    font-family: "Helvetica", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* * {
     outline: 2px solid red;
+} */
+
+* {
+    font-family: "Helvetica", Roboto, sans-serif;
 }
 
 body {
-
+    padding: 0px;
+    margin: 0px;
     display: flex;
     flex-direction: column;
 
@@ -198,6 +204,7 @@ div.author {
 .section4_action_left{
     display: flex;
     flex-direction: column;
+    max-width: 350px;
 
 }
 .section4_action_text_header {
@@ -226,4 +233,17 @@ button.section4_button {
     height: fit-content;
     padding: 4px;
     outline: 2px solid white;
+}
+
+/* Footer styles */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    background-color: #1f2937;
+}
+.footer div {
+    color: white
 }
